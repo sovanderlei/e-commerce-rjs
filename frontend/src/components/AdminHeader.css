@@ -1,0 +1,16 @@
+.headerName{
+    margin: 0px;
+    color: white;
+}
+
+.headerName h5{
+    margin-top: 10px; 
+    margin-bottom: 0px;
+    padding: 0px;
+    color: white;
+}
+
+.headerName small{ 
+    margin: 0px;
+    padding: 0px;
+}

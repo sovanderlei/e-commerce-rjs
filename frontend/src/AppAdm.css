@@ -1,0 +1,29 @@
+/* Deixa o layout responsivo */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Ajusta a altura do menu e do conteúdo */
+.row {
+  flex-grow: 1;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+  border-top: 1px solid #dee2e6;
+}
